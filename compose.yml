@@ -13,7 +13,7 @@ x-base_service: &base_service
           - driver: nvidia
             device_ids: ['0']
             capabilities: [compute, utility]
-name: webui-docker
+name: imagegen-webui
 services:
   download:
     build: ./services/download/
